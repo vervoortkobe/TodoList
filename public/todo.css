@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.input-container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.nameBox, 
+.date {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.buttonEllement {
+  background-color: green;
+  color: white;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.buttonEllement:hover {
+  background-color: darkgreen;
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.pagecontent { display: none; }
+.preload { padding-top: 19%; }
+center { position: relative; }
+.inlineavatar { border-radius: 8px; width: auto; height: auto; margin-left: .5vw; margin-right: .5vw; }
+.navavatar { padding-top: .4vw; }
+.avatar { border-radius: 30px; width: 3vw; height: auto; }
+h1 {
+  text-align: center;
+  font-family: roboto, sans-serif;
+  font-size: 38px;
+}
+.navbar .navbar-brand form {
+  font-size: 1.5rem;
+}

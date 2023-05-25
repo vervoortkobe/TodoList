@@ -1,0 +1,28 @@
+center { position: relative; }
+.login-form {
+  margin-top: 12%;
+  border: 1px solid #45a3fb; 
+  border-radius: 4px; 
+  padding: 4vh;
+  width: 20vw;
+  height: 50vh;
+}
+.login-form h1 {
+  text-align: center;
+  margin-top: 0vh;
+}
+.login-form form #username, 
+.login-form form #password, 
+.login-form form #submit, 
+.dlogin {
+  width: 16vw;
+}
+.login-form form #submit {
+  font-weight: bold;
+}
+.dlogin {
+  user-select: none;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+}
